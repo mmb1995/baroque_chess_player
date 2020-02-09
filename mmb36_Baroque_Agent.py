@@ -72,7 +72,7 @@ def introduce():
     return "I'm Newman Barry, a newbie Baroque Chess agent."
 
 def prepare(player2Nickname):
-    global ZOBRIST_NUMBERS; global TRANSPOSITION_TABLE;  global ZHASH; gloabal TABLE_SIZE
+    global ZOBRIST_NUMBERS; global TRANSPOSITION_TABLE;  global ZHASH; global TABLE_SIZE
     TRANPOSITION_TABLE = [None] * 1000000
     TABLE_SIZE = len(TRANSPOSITION_TABLE)
     for r in range(8):
