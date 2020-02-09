@@ -1,7 +1,6 @@
 import unittest
 
-class TestMinimax(unittTest.TestCase)
-
+class TestMinimax(unittest.TestCase):
 
     def static_eval(state):
         return
